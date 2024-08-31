@@ -80,7 +80,7 @@
 		float: left;
 		width: 40%;
 		padding: 05px;
-		margin-left: 35px !important; 
+		margin-left: 35px !important;
 		box-sizing: border-box;
 		background-image: url('../images/tablesetting.jpg') !important;
 	}
@@ -143,11 +143,21 @@
 		text-align: center !important;
 	}
 
-	.form-button-submit	 {
+	.form-button-submit {
 		width: 300px !important;
 		height: 70px !important;
 		font-size: 25pt !important;
 		align-content: center !important;
+	}
+
+	.form-button-div {
+		position: absolute !important;
+		margin: 5px 150px 0px 150px !important;
+	}
+
+	.form-main-div {
+		position: relative !important;
+		min-height: 385px !important;
 	}
 }
 
@@ -340,14 +350,25 @@ body {
 	text-align: center;
 }
 
-.form-button-submit	 {
+.form-button-div {
+	position: absolute;
+	margin: 5px 150px 0px 150px;
+}
+
+.form-main-div {
+	position: relative;
+	min-height: 385px;
+}
+
+.form-button-submit {
+	position: absolute;
 	width: 300px;
 	height: 70px;
 	font-size: 25pt;
 	align-content: center;
 }
 
- /* END Normal Screen */
+/* END Normal Screen */
 
 /* For Custom Small Screen */
 @media (max-width: 480px) {
