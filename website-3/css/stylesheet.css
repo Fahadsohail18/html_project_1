@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+.sidesection {
+    background-color: navajowhite;
+    min-height: 750px;
+    max-width: 250px;
+    float: left;
+}
+
+.one {
+    margin-left: 50px;
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+
+.two {
+    color: blueviolet;
+    font-size: 15px;
+}
+
+.two1 {
+    color: black;
+    font-size: 15px;
+    padding-right: 8px;
+}
+
+.sidenavbar {
+    margin-left: 85px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.main {
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgb(229, 248, 248);
+    float: right;
+    min-height: 320px;
+    max-width: 800px;
+    margin-right: 130px;
+}
+
+.box {
+    padding-top: 100px;
+}
+/* box1 */
+
+.fa-code-branch {
+    font-size: 60px;
+    color: slateblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* box2 */
+
+.fa-window-restore {
+    font-size: 60px;
+    color: slateblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* box3 */
+.fa-qrcode {
+    font-size: 60px;
+    color: slateblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* box4 */
+
+.fa-notdef {
+    font-size: 60px;
+    color: slateblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    background-color: rgb(229, 248, 248);
+    min-height: 150px;
+    min-width: 194px;
+    float: left;
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.box2 {
+    background-color: rgb(229, 248, 248);
+    min-height: 150px;
+    min-width: 194px;
+    float: right;
+    margin-right: 130px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+
+.box3 {
+    background-color: rgb(229, 248, 248);
+    min-height: 150px;
+    min-width: 194px;
+    float: left;
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+
+.box4 {
+    background-color: rgb(229, 248, 248);
+    min-height: 150px;
+    min-width: 194px;
+    float: right;
+    margin-right: 10px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.bottombox {
+    padding-top: 20px;
+    background-color: rgb(211, 155, 82);
+    color: black;
+    margin-top: 50px;
+    padding-left: 10px;
+    float: right;
+    min-height: 140px;
+    min-width: 800px;
+    margin-right: 130px;
+    font-size: 25px;
+
+}
+
+.footer {
+    float: left;
+    margin-top: 50px;
+    margin-left: 9px;
+
+
+}
+
+.footer1 {
+    margin-left: 20px;
+}
