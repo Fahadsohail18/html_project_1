@@ -5,11 +5,21 @@ body {
 
 .one {
 	padding-top: 150px;
-
 }
 
 #a {
 	font-size: 13px;
+}
+
+.sidebar-container {
+	/* position: absolute; */
+	float: left;
+}
+
+.main-container {
+	/* position: relative; */
+	/* margin-left: 300px; */
+	float: right;
 }
 
 .sidebar {
@@ -17,9 +27,9 @@ body {
 	text-align: center;
 	line-height: 1.8;
 	background-color: navajowhite;
-	max-height: 650px ;
+	max-height: 650px;
 	max-width: 320px;
-	float: left;
+	/* float: left; */
 	overflow-y: scroll;
 	position: fixed;
 }
@@ -34,9 +44,9 @@ body {
 }
 
 .mainhome {
-	padding-left: 10px;
+	/* padding-left: 10px; */
 	background-color: rgb(229, 248, 248);
-	float: right;
+	/* float: right; */
 	min-height: 600px;
 	max-width: 800px;
 	margin-right: 110px;
@@ -45,9 +55,9 @@ body {
 .mainabout {
 	margin-top: 150px;
 	padding-top: 10px;
-	padding-left: 10px;
+	/* padding-left: 10px; */
 	background-color: rgb(234, 241, 171);
-	float: right;
+	/* float: right; */
 	min-height: 320px;
 	max-width: 800px;
 	margin-right: 110px;
@@ -101,7 +111,7 @@ body {
 	min-height: 150px;
 	min-width: 194px;
 	float: left;
-	margin-left: 10px;
+	/* margin-left: 10px; */
 	font-size: 15px;
 	text-align: center;
 	margin-top: 40px;
@@ -112,7 +122,7 @@ body {
 	background-color: rgb(229, 248, 248);
 	min-height: 150px;
 	min-width: 194px;
-	float: right;
+	/* float: right; */
 	margin-right: 110px;
 	font-size: 15px;
 	text-align: center;
@@ -138,7 +148,7 @@ body {
 	background-color: rgb(229, 248, 248);
 	min-height: 150px;
 	min-width: 194px;
-	float: right;
+	/* float: right; */
 	margin-right: 12px;
 	font-size: 15px;
 	text-align: center;
@@ -165,7 +175,7 @@ body {
 	padding-top: 10px;
 	padding-left: 10px;
 	background-color: rgb(101, 212, 175);
-	float: right;
+	/* float: right; */
 	max-height: 200px;
 	min-width: 800px;
 	margin-right: 110px;
@@ -219,13 +229,11 @@ body {
 	background-color: rgb(229, 248, 248);
 	max-height: 250px;
 	min-width: 240px;
-	float: right;
+	/* float: right; */
 	margin-right: 110px;
 	font-size: 15px;
 	text-align: center;
 	margin-top: 150px;
-
-
 }
 
 
@@ -257,13 +265,11 @@ body {
 	background-color: rgb(229, 248, 248);
 	max-height: 250px;
 	min-width: 240px;
-	float: right;
+	/* float: right; */
 	margin-right: 110px;
 	font-size: 15px;
 	text-align: center;
 	margin-top: 150px;
-
-
 }
 
 
@@ -284,23 +290,19 @@ body {
 	padding-top: 10px;
 	padding-left: 10px;
 	background-color: rgb(28, 83, 65);
-	float: right;
+	/* float: right; */
 	max-height: 200px;
 	min-width: 800px;
 	margin-right: 110px;
-
 }
 
 .box11 {
 	background-color: rgb(0, 12, 12);
 	min-height: 300px;
 	min-width: 400px;
-	float: right;
+	/* float: right; */
 	margin-right: 110px;
-
 	margin-top: 40px;
-
-
 }
 
 .box12 {
@@ -317,12 +319,9 @@ body {
 	background-color: rgb(10, 139, 139);
 	min-height: 300px;
 	min-width: 400px;
-	float: right;
+	/* float: right; */
 	margin-right: 110px;
-
 	margin-top: 40px;
-
-
 }
 
 .box14 {
@@ -331,9 +330,7 @@ body {
 	min-width: 400px;
 	float: left;
 	margin-left: 10px;
-
 	margin-top: 40px;
-
 }
 
 .loadmore {
@@ -341,12 +338,11 @@ body {
 	padding-top: 10px;
 	padding-left: 10px;
 	background-color: rgb(28, 83, 65);
-	float: right;
+	/* float: right; */
 	min-height: 30px;
 	min-width: 800px;
 	margin-right: 110px;
 	text-align: center;
-
 }
 
 /* BLOG */
@@ -355,7 +351,7 @@ body {
 	padding-top: 10px;
 	padding-left: 10px;
 	background-color: rgb(28, 83, 65);
-	float: right;
+	/* float: right; */
 	max-height: 200px;
 	min-width: 800px;
 	margin-right: 110px;
@@ -382,13 +378,11 @@ body {
 	background-color: rgb(16, 17, 17);
 	min-height: 180px;
 	min-width: 270px;
-	float: right;
+	/* float: right; */
 	margin-right: 110px;
 	font-size: 15px;
 	text-align: center;
 	margin-top: 50px;
-
-
 }
 
 .box16 i {
@@ -427,14 +421,11 @@ body {
 	background-color: white;
 	min-height: 180px;
 	min-width: 270px;
-	float: right;
+	/* float: right; */
 	margin-right: 110px;
 	font-size: 15px;
 	text-align: left;
 	margin-top: 10px;
-
-
-
 }
 
 .box20 {
@@ -454,7 +445,7 @@ body {
 	padding-top: 10px;
 	padding-left: 10px;
 	background-color: rgb(28, 83, 65);
-	float: right;
+	/* float: right; */
 	min-height: 30px;
 	min-width: 800px;
 	margin-right: 110px;
@@ -467,7 +458,7 @@ body {
 	padding-top: 10px;
 	padding-left: 10px;
 	background-color: white;
-	float: right;
+	/* float: right; */
 	max-height: 200px;
 	min-width: 800px;
 	margin-right: 110px;
